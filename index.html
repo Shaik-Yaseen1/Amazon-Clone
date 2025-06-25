@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
         <div class="navbar">
        <div class="nav-logo border">
@@ -43,10 +44,57 @@
 </div>
 </div>
 </div>
+
 <div class="panel">
-    <div class="panel-menu"><i class="fa-solid fa-bars"></i>
+    <div class="panel-menu" id ="menu-toggle"><i class="fa-solid fa-bars"></i>
         All
     </div>
+
+    <!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <i class="fa-solid fa-circle-user"></i>
+        <h2>Hello, Sign in</h2>
+        <span class="close-btn" id="close-btn">&times;</span>
+    </div>
+    <ul class="sidebar-links">
+        <ul class="Section-sidebar"><b>Digital Content & Devices</b></ul>
+        <li>Prime Video</li>
+        <li>Amazon Music</li>
+        <li>Kindle E-readers & Books</li>
+        <li>Amazon Appstore</li>
+    </ul>
+    <ul class="sidebar-links">
+     <ul class="Section-sidebar"><b>Shop by Department</b></ul>
+        <li>Electronics</li>
+        <li>Computers</li>
+        <li>Smart Home</li>
+        <li>Arts & Crafts</li>
+    </ul>
+</ul>
+
+    <ul class="sidebar-links">
+     <ul class="Section-sidebar"><b>Programs & Features</b></ul>
+        <li>Gift Cards</li>
+        <li>Shop By Interest</li>
+        <li>Amazon Live</li>
+        <li>International Shopping</li>
+    </ul>
+</ul>
+
+    <ul class="sidebar-links">
+     <ul class="Section-sidebar"><b>Help & Settings</b></ul>
+        <li>Your Account</li>
+        <li>English</li>
+        <li>United States</li>
+        <li>Customer Service</li>
+        <li>Sign in</li>
+    </ul>
+</ul>
+</div>
+<div class="overlay" id="overlay"></div>
+
+    
     <div class="panel-icons ">
         <p class="box1 border">Customer Service</p>
         <p class="box1 border">Today's Deals</p>
@@ -91,7 +139,7 @@ headset
             <h6><a>See more</a></h6>
         </div>
         <div class="box2 box">
-            <h2>Gaming accessories</h2>
+            <h2 class="home">Shop for home essentials</h2>
             <div class="gaming">
           <div class="headset" style="background-image: url(cleaning\ tools.jpg);">
 
@@ -118,26 +166,26 @@ headset
             <h6><a>See more</a></h6>
         </div>
         <div class="box3 box">
-            <h2>Gaming accessories</h2>
+            <h2>New home arrivals</h2>
             <div class="gaming">
-          <div class="headset" style="background-image: url(headset.jpg);">
+          <div class="headset" style="background-image: url(kitchen1.jpg);">
 
           </div>
  <!-- <div class="headset">
 headset
           </div> -->
-          <div class="keyboard" style="background-image: url(keyboard.jpg);">
+          <div class="keyboard" style="background-image: url(kitchen2.jpg);">
 
             </div>
           
         </div>
         <div class="gaming1">
         
-            <div class="mouse" style="background-image: url(mouse.jpg);">
+            <div class="mouse" style="background-image: url(kitchen3.jpg);">
 
             </div>
         
-            <div class="chair" style="background-image: url(chair.jpg);">
+            <div class="chair" style="background-image: url(kitchen4.jpg);">
 
             </div>
         </div>
@@ -145,26 +193,26 @@ headset
             <h6><a>See more</a></h6>
         </div>
         <div class="box4 box">
-            <h2>Gaming accessories</h2>
+            <h2>Shop Fashion for less</h2>
             <div class="gaming">
-          <div class="headset" style="background-image: url(headset.jpg);">
+          <div class="headset" style="background-image: url(fashion1.jpg);">
 
           </div>
  <!-- <div class="headset">
 headset
           </div> -->
-          <div class="keyboard" style="background-image: url(keyboard.jpg);">
+          <div class="keyboard" style="background-image: url(fashion2.jpg);">
 
             </div>
           
         </div>
         <div class="gaming1">
         
-            <div class="mouse" style="background-image: url(mouse.jpg);">
+            <div class="mouse" style="background-image: url(fashion3.jpg);">
 
             </div>
         
-            <div class="chair" style="background-image: url(chair.jpg);">
+            <div class="chair" style="background-image: url(fashion4.jpg);">
 
             </div>
         </div>
@@ -237,6 +285,6 @@ Back to top
     
 
     </footer> 
-    
+ <script src="script.js"></script>   
 </body>
 </html>
